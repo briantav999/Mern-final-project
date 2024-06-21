@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+h1 {
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Anton', sans-serif;
+
+}
+.anton-font {
+  font-family: 'Anton', sans-serif;
+}
+
+li {
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: auto;
+  justify-self: center;
+  margin-top: 10px;
+  font-family: 'Anton', sans-serif;
+}
+.lets {
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+}
+input {
+  margin: 10px;
+}
+.go {
+  margin-top: 100px;
+}
+
+/* src/index.css */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  background-image: url('https://t3.ftcdn.net/jpg/00/45/89/56/360_F_45895635_FmowW26VRZRLwSeWttUtUQ8xFcUwy2e4.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-content {
+  background-color: rgba(255, 255, 255, 0.8); /* Optional: to make content stand out */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
